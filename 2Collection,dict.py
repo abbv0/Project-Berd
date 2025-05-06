@@ -35,15 +35,19 @@ d_types = {
 d_lists={'list1':l1,'list2':l2}
 d_dicts={'dict_types':d_types,'dict_lists':d_lists}
 print('Resault2: ', d_dicts) # Create multiple dictionaries. Dictionaries with base types, dictionaries with sheets, dictionaries with dictionaries.
+
 result3 = d_dicts
 result3['dict_types'] = d_types.get('v_int')
 print('Resault3: ',result3.get('dict_types')) # Retrieve values ​​from dictionary via .get()
+
 result4 = d_dicts
 result4['additional_dict']= {'Morning':'Утро', 'Evening': 'Вечер'}
 print('Resault4: ',result4.get('additional_dict').get('Evening')) # Put one dictionary into another. Then get the values ​​from the nested dictionary
+
 l_key = [1,2,3,4,'Hello']
 l_values = ['one','two','three','four','World!']
 resault5 = dict(zip(l_key,l_values))
 print('Resault5: ',resault5) # Make a list with dictionary keys. Make a sheet with dictionary meanings.
+
 resault5[1] = 'first'
 print(resault5) # In an already created dictionary, change the value of an element
