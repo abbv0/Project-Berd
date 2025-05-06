@@ -47,4 +47,3 @@ resault5 = dict(zip(l_key,l_values))
 print('Resault5: ',resault5) # Make a list with dictionary keys. Make a sheet with dictionary meanings.
 resault5[1] = 'first'
 print(resault5) # In an already created dictionary, change the value of an element
-
