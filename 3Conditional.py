@@ -30,7 +30,7 @@ elif v_1<v_3 and v_2<v_3:
     print('Result1: 3 BIG')
 else: 
     print('Result1: there is equality') # Use conditional operator - compare several numbers and print.
-v_1 = 5
+v_1 = 5 
 print('Result2: ',v_1 / 10 if v_1 >= 0 else v_1 * 10) # If the number in the variable is positive, multiply it by 10, and if it is negative, divide it.
 
 v_1 = 4
