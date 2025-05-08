@@ -1,25 +1,3 @@
-#2 Collection, dict 
-list1 = [1, 2, 3, 'Hello']
-print(list1)
-print(list1[0])
-d1=dict()
-d1["first"] = 1
-d1["second"] = 12345
-print(d1.get("second"))
-d2 = {
-    'val1':1, 
-    'val2':'Hello123',
-    1:'test'
-    }
-print(d2.keys())
-print(d2.values()) 
-d3 = dict()
-d3['new'] = d2
-d3['old'] = None
-print(d3.get('new').get('val1'))
-print(type(d3))
-print(d3.items())
-
 #2 HW
 # Create multiple lists. Add them together. In the new dictionary, select only unique values.
 l1 = [1,2,322,4,'Hello']
@@ -57,3 +35,25 @@ print('Result5: ',Result5)
 # In an already created dictionary, change the value of an element
 Result5[1] = 'first'
 print(Result5) 
+
+#2 lessons Collection, dict 
+list1 = [1, 2, 3, 'Hello']
+print(list1)
+print(list1[0])
+d1=dict()
+d1["first"] = 1
+d1["second"] = 12345
+print(d1.get("second"))
+d2 = {
+    'val1':1, 
+    'val2':'Hello123',
+    1:'test'
+    }
+print(d2.keys())
+print(d2.values()) 
+d3 = dict()
+d3['new'] = d2
+d3['old'] = None
+print(d3.get('new').get('val1'))
+print(type(d3))
+print(d3.items())

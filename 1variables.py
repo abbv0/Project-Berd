@@ -1,18 +1,6 @@
-#1 variables 
-v_int = int(3.333)
-v_float = 1.1
-v_String = 'test spring'
-v_list = list()
-v_list = [1,'abc',3,4,5]
-v_list2 = [1,v_list]
-print(v_int)
-print(v_float)
-print(v_String)
-print(v_list)
-print(v_list2)
-
 #1 HW
 # addition
+v_int = int(3.333)
 result1=v_int+1
 print('Result1: '+ str(result1)) 
 
@@ -43,3 +31,15 @@ result7_list2 = [1,3,3,7]
 result7_list1.insert(4,result7_list2)
 result7=result7_list1+result7_list2
 print('Result7: '+ str(result7)) 
+
+#1 lessons variables 
+v_float = 1.1
+v_String = 'test spring'
+v_list = list()
+v_list = [1,'abc',3,4,5]
+v_list2 = [1,v_list]
+print(v_int)
+print(v_float)
+print(v_String)
+print(v_list)
+print(v_list2)
