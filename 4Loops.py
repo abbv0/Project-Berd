@@ -1,4 +1,4 @@
-#3 HW
+#4 HW
 # Write a loop over a list
 for one_element in [1, 2, 3, 4, 5, 6, 7, 8]: print(one_element) 
 
@@ -32,7 +32,7 @@ for key in d2.keys():
     d1[key] = d2.get(key)
 print(d1)
 
-#3 lessons loops
+#4  lessons loops
 l1 = [1, 2, 3, 4, 5, 6, 7, 8]
 v_sum = 0
 for one_element in l1:
