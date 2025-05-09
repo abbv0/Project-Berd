@@ -29,7 +29,14 @@ def func_name_call(choice):
 func_name_call(choice =' name')
 
 # Write a function that receives a list as input, bubble sorts it, and then returns the sorted list.
-
+list = [1,9,2,7,3,5,6,4,8]
+def func_bubble_sort(list):
+    for element in list:
+        if list[0]>list[1]
+            temp_element = list[0]
+            list[0] = list[1]
+            list[1] = temp_element
+            
 
 #5 Functions
 def func1():
