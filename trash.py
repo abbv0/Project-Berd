@@ -19,8 +19,6 @@
 # print(func_bubble_sort([1,9,2,7,3,5,6,4,8]))
     
         
-
- 
 def func_bubble_sort(l1):
     v_lenght_list = len(l1)
     i=0
