@@ -37,4 +37,4 @@ def func_bubble_sort(l1):
         print(f'i: {i}, l1: {l1}, temp_element: {temp_element},l1[i]: {l1[i]}, element: {element}, v_iteration: {v_iteration}')
     return(l1)
 print(func_bubble_sort([1,9,2,7,3,5,6,4,8]))
-#######№№3№№№№№№#№№№№№№№№#№№№№;;;№;№№фы№;№;смптпатапимчввсарвапоывапрывапрпмиjhvgbропорпгшплнгопsdfgsdыывапывап
+#######№№3№№№№№№#№№№№№№№№#№№№№;;;№;№№фы№;№;смптпатапимчввсарвапоывапрывапрпмиjhvgbропорпгшплнгопsdfgsdыывапывапопаро
